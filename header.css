@@ -1,3 +1,12 @@
+:root {
+  --cor-de-fundo: #ebecee;
+  --branco: #ffffff;
+  --laranja: #eb9b00;
+  --azul-degrade: linear-gradient(97.54deg, #002f52 35.49%, #326589 165.37%);
+  --fonte-principal: "Poppins";
+  --azul: #002f52;
+  --fonte-secundario: "Josefin Sans";
+}
 //Código omitido
 
 .opções_botão:checked~.lista-menu {
@@ -13,5 +22,45 @@
 
 .opções__botão {
     display: none;
+}
+@media screen and (min-width: 1024px) {
+  .container__titulo,
+  .container__titulo--negrito {
+    font-family: var(--fonte-secundario);
+    font-size: 30px;
+  }
+}
+.container__titulo {
+  font-weight: 400;
+}
+
+.container__titulo--negrito {
+  font-weight: 700;
+}
+@media screen and (min-width: 1024px) {
+  .container__titulo,
+  .container__titulo--negrito {
+    font-family: var(--fonte-secundario);
+    font-size: 30px;
+  }
+
+  .container__titulo {
+    font-weight: 400;
+  }
+
+  .container__titulo--negrito {
+    font-weight: 700;
+  }
+}
+@media screen and (min-width: 1024px) {
+  /* Código omitido */
+
+  .container__titulo {
+    font-weight: 400;
+    display: block;
+  }
+}
+.container__titulo {
+  display: none;
 }
 
