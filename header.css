@@ -99,4 +99,18 @@
 .opções {
   display: none;
 }
+@media screen and (min-width: 1024px) {
+  /* Código omitido */
+
+  .container__imagem-transparente {
+    display: none;
+  }
+}
+@media screen and (min-width: 1024px) {
+  /* Código omitido */
+
+  .cabeçalho__menu-hamburguer {
+    display: none;
+  }
+}
 
