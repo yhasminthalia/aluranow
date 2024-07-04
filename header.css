@@ -575,4 +575,24 @@
 .lista-rodapé {
   display: none;
 }
+//Código omitido
+
+@media screen and (min-width: 1728px) {
+    .banner_pesquisa {
+        width: 35%;
+    }
+}
+//Código omitido
+
+@media screen and (min-width: 1728px) {
+    .banner_pesquisa {
+        width: 35%;
+    }
+    .banner_pesquisa:: placeholder {
+        background-position: 12em;
+    }
+    .banner {
+        padding: 5em 0;
+    }
+}
 
