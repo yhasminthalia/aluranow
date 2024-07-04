@@ -595,4 +595,45 @@
         padding: 5em 0;
     }
 }
+//Código omitido
+
+@media screen and (min-width: 1728px) {
+    .carrossel_container {
+        display: flex;
+    }
+}
+//Código omitido
+
+@media screen and (min-width: 1728px) {
+    .carrossel_container {
+        display: flex;
+        margin: 0 20vw 3em 20vw
+    }
+}
+//Código omitido
+
+@media screen and (min-width: 1728px) {
+    .carrossel_container {
+        display: flex;
+        margin: 0 20vw 3em 20vw
+        align-items: center
+    }
+}
+//Código omitido
+
+    .swiper-pagination {
+        margin: 1em 0;
+    }
+//Código omitido
+
+    .swiper {
+        width: 50%;
+        }
+descrição titulo {
+    font-size: 32px;
+}
+    .card {
+        width: 60%;
+        margin-left: 3em;
+    }
 
