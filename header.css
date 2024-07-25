@@ -636,4 +636,32 @@ descrição titulo {
         width: 60%;
         margin-left: 3em;
     }
+//Código omitido
 
+@media screen and (min-width: 1728px) {
+    .tópicos {
+        padding: 3em 30vw;
+    }
+}
+//Código omitido
+
+@media screen and (min-width: 1728px) {
+    .contato {
+        padding: 3em 2vw;
+    }
+}
+//Código omitido
+
+@media screen and (min-width: 1728px) {
+    .lista-rodapé {
+        border-left: 1px solid var(--cinza);
+    }
+}
+//Código omitido
+
+@media screen and (min-width: 1728px) {
+    .lista-rodapé {
+        border-left: 1px solid var(--cinza);
+        padding-left: 1em
+    }
+}
