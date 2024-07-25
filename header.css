@@ -665,3 +665,23 @@ descrição titulo {
         padding-left: 1em
     }
 }
+@media screen and (min-width: 1728px) {
+}
+@media screen and (min-width: 1728px) {
+  .banner__pesquisa {
+    width: 35%;
+  }
+}@media screen and (min-width: 1728px) {
+  /* Código omitido */
+
+  .banner {
+    padding: 5em 0;
+  }
+}
+@media screen and (min-width: 1728px) {
+  /* Código omitido */
+
+  .banner__pesquisa::placeholder {
+    background-position: 12em;
+  }
+}
